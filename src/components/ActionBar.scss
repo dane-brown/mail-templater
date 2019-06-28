@@ -1,0 +1,14 @@
+@import "../Variables.scss";
+
+#action-bar {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: $tertiaryColor;
+  svg {
+    width: 30px;
+    height: auto;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+}
